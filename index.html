@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Richard Martinez</title>
+    <title>Richy | Diseñador Multimedia</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -11,40 +11,53 @@
 </head>
 <body>
 
-<header class="fixed-top bg-black px-4 py-3 d-flex justify-content-between align-items-center">
-    <a href="#" class="logo">Richard Martinez</a>
+<header class="fixed-top px-4 py-3 d-flex justify-content-between align-items-center">
+    <a href="#inicio" class="logo">Richy</a>
 
     <button class="menu-btn d-lg-none">
         <i class="fas fa-bars"></i>
     </button>
 
     <nav class="nav-links">
-        <a href="#" class="active">Inicio</a>
-        <a href="#">Sobre mí</a>
-        <a href="#">Proyectos</a>
-        <a href="#">Contacto</a>
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#edicion-guionizacion">Edición + Guionización</a>
+        <a href="#contacto">Contacto</a>
     </nav>
 </header>
 
-<section class="home container">
+<!-- Sección Inicio (con información de Sobre mí integrada) -->
+<section id="inicio" class="home container">
+    <div class="hero-bg-shape"></div>
     <div class="row align-items-center justify-content-center">
         <div class="col-lg-5 text-center text-lg-start home-content">
-            <h1>Hola, soy <span>Richard</span></h1>
+            <h1>Hola, soy <span>Richy</span></h1>
             <h3 class="typing-text">Yo soy <span></span></h3>
             <p>Soy un diseñador multimedia con visión y creatividad, apasionado por la edición, 
                 producción audiovisual y fotografía. Me encanta viajar, explorar nuevas ideas y aprender constantemente para perfeccionar mis habilidades. Cada proyecto es una oportunidad para crecer y transformar ideas en experiencias visuales únicas.</p>
+            
+            <!-- Habilidades integradas en la primera sección -->
+            <div class="skills mt-4">
+                <span class="skill-tag">Edición de Video</span>
+                <span class="skill-tag">Fotografía</span>
+                <span class="skill-tag">Adobe Illustrator</span>
+                <span class="skill-tag">Adobe After Effects</span>
+                <span class="skill-tag">Figma</span>
+            </div>
+            
             <br>
             <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                <a href="https://www.instagram.com/richym_06/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/richym_06/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@yosoyrichy_mj" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
             </div>
-            <a href="#" class="btn">Mira sobre mí</a>
+            <a href="#proyectos" class="btn">Conoce mi trabajo</a>
         </div>
 
         <div class="col-lg-5 text-center">
-            <img src="recursos/lola.png" alt="" class="home-img">
+            <div class="img-sticker-wrapper">
+                <img src="recursos/lola.png" alt="Richy" class="home-img">
+                <div class="sticker-effect"></div>
+            </div>
         </div>
     </div>
 </section>
@@ -79,13 +92,12 @@
     </div>
 </section>
 
-<!-- Sección Galería de Proyectos -->
-<section class="gallery-section py-5">
+<!-- Sección Proyectos -->
+<section id="proyectos" class="gallery-section py-5">
     <div class="container">
         <h2 class="text-center mb-5 section-title">Mis Proyectos Creativos</h2>
         
         <div class="row justify-content-center">
-            <!-- Proyecto 1 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="project-card" data-popup="popup1">
                     <div class="project-title">UX/UI</div>
@@ -93,7 +105,6 @@
                 </div>
             </div>
             
-            <!-- Proyecto 2 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="project-card" data-popup="popup2">
                     <div class="project-title">Un poco de PH</div>
@@ -101,11 +112,150 @@
                 </div>
             </div>
             
-            <!-- Proyecto 3 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="project-card" data-popup="popup3">
                     <div class="project-title">Un poco de mis fotos</div>
                     <img src="recursos/phoyo.jpg" alt="Proyecto Innovación Digital" class="project-image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Edición + Guionización -->
+<section id="edicion-guionizacion" class="video-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 section-title">Edición + Guionización</h2>
+        <p class="text-center mb-5 section-subtitle">Contenido audiovisual en formato vertical · estilo cinematográfico</p>
+        
+        <div class="row justify-content-center g-5">
+            <div class="col-lg-4 col-md-6">
+                <div class="video-card">
+                    <div class="tiktok-embed-container">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@yosoyrichy_mj/video/7629858919979961618" data-video-id="7629858919979961618" style="max-width: 100%; min-width: 325px;">
+                            <section>
+                                <a target="_blank" title="@yosoyrichy_mj" href="https://www.tiktok.com/@yosoyrichy_mj?refer=embed">@yosoyrichy_mj</a>
+                                En Crepes & Moments probamos un Choco Waffle con Nutella y hasta trozos de brownie, acompañado de un helado de maracuyá que es un 10/10. 🍦✨ ¿Con quién vendrías por este plan de juegos y capuchinos? 👇
+                                <a title="crepesandmoments" target="_blank" href="https://www.tiktok.com/tag/crepesandmoments?refer=embed">#CrepesAndMoments</a>
+                                <a title="surdequito" target="_blank" href="https://www.tiktok.com/tag/surdequito?refer=embed">#SurDeQuito</a>
+                                <a title="quito" target="_blank" href="https://www.tiktok.com/tag/quito?refer=embed">#Quito</a>
+                                <a title="waffles" target="_blank" href="https://www.tiktok.com/tag/waffles?refer=embed">#Waffles</a>
+                                <a target="_blank" title="♬ sonido original - Richy🖤" href="https://www.tiktok.com/music/sonido-original-7629858957305170695?refer=embed">♬ sonido original - Richy🖤</a>
+                            </section>
+                        </blockquote>
+                    </div>
+                    <div class="video-info">
+                        <h4>Choco Waffle con Nutella</h4>
+                        <p>Edición y guionización · formato TikTok</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="video-card">
+                    <div class="tiktok-embed-container">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@yosoyrichy_mj/video/7622832818674027783" data-video-id="7622832818674027783" style="max-width: 100%; min-width: 325px;">
+                            <section>
+                                <a target="_blank" title="@yosoyrichy_mj" href="https://www.tiktok.com/@yosoyrichy_mj?refer=embed">@yosoyrichy_mj</a>
+                                ¡Pancita llena y corazón contento en Amici Miel! 🍕🔥 Vinimos por la famosa pizza artesanal y nos voló la cabeza. Masa perfecta con ese toque que solo los profesionales logran y un lugar increíblemente acogedor en el norte de Quito. 📍 ¡Tienen que venir a probarla! ¿Con quién compartirías una de estas? Te leo en los comentarios. 👇
+                                <a title="quito" target="_blank" href="https://www.tiktok.com/tag/quito?refer=embed">#Quito</a>
+                                <a title="pizzalover" target="_blank" href="https://www.tiktok.com/tag/pizzalover?refer=embed">#PizzaLover</a>
+                                <a title="amicimiel" target="_blank" href="https://www.tiktok.com/tag/amicimiel?refer=embed">#AmiciMiel</a>
+                                <a title="restaurantesquito" target="_blank" href="https://www.tiktok.com/tag/restaurantesquito?refer=embed">#RestaurantesQuito</a>
+                                <a title="ecuador" target="_blank" href="https://www.tiktok.com/tag/ecuador?refer=embed">#Ecuador</a>
+                                <a target="_blank" title="♬ sonido original - Richy🖤" href="https://www.tiktok.com/music/sonido-original-7622832951394372360?refer=embed">♬ sonido original - Richy🖤</a>
+                            </section>
+                        </blockquote>
+                    </div>
+                    <div class="video-info">
+                        <h4>Pizza artesanal Amici Miel</h4>
+                        <p>Storytelling creativo · formato TikTok</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <div class="video-card">
+                    <div class="tiktok-embed-container">
+                        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@yosoyrichy_mj/video/7594639103384243474" data-video-id="7594639103384243474" style="max-width: 100%; min-width: 325px;">
+                            <section>
+                                <a target="_blank" title="@yosoyrichy_mj" href="https://www.tiktok.com/@yosoyrichy_mj?refer=embed">@yosoyrichy_mj</a>
+                                Recomendadísimo 🎮🍔 Hamburguesas brutales y la atención 10/10 en Game Over. Si te gustan las burgers y los videojuegos este lugar está de lujo: buen sabor, buen tamaño y vibes increíbles 🤤🔥 📍 Calle Luis Cordero y Av. 12 de Octubre — Quito
+                                <a title="quitofood" target="_blank" href="https://www.tiktok.com/tag/quitofood?refer=embed">#QuitoFood</a>
+                                <a title="hamburguesasquito" target="_blank" href="https://www.tiktok.com/tag/hamburguesasquito?refer=embed">#HamburguesasQuito</a>
+                                <a title="recomendadoquito" target="_blank" href="https://www.tiktok.com/tag/recomendadoquito?refer=embed">#RecomendadoQuito</a>
+                                <a title="gameoveruio" target="_blank" href="https://www.tiktok.com/tag/gameoveruio?refer=embed">#GameOverUio</a>
+                                <a target="_blank" title="♬ sonido original - Richy🖤" href="https://www.tiktok.com/music/sonido-original-7594639142052023057?refer=embed">♬ sonido original - Richy🖤</a>
+                            </section>
+                        </blockquote>
+                    </div>
+                    <div class="video-info">
+                        <h4>Game Over Burgers</h4>
+                        <p>Guionización + edición dinámica · formato TikTok</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-5">
+            <a href="https://www.instagram.com/richym_06/" target="_blank" class="btn-outline">
+                <i class="fa-brands fa-instagram"></i> Ver más en Instagram
+            </a>
+            <a href="https://www.tiktok.com/@yosoyrichy_mj" target="_blank" class="btn-outline ms-3">
+                <i class="fa-brands fa-tiktok"></i> Ver más en TikTok
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Sección Contacto -->
+<section id="contacto" class="contacto-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5 section-title">Contacto</h2>
+        
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-5 text-center mb-4 mb-lg-0">
+                <div class="contact-img-wrapper">
+                    <img src="recursos/fotoico.png" alt="Contacto Richy" class="contact-img">
+                </div>
+            </div>
+            
+            <div class="col-lg-6">
+                <div class="contact-card">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-user-circle"></i>
+                            <div>
+                                <h4>Nombre</h4>
+                                <p>Richard Martinez</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Número de celular</h4>
+                                <p>0984160357</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Correo electrónico</h4>
+                                <p>Richardjacome1983@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-social mt-4">
+                        <a href="https://www.instagram.com/richym_06/" target="_blank" class="contact-social-link">
+                            <i class="fa-brands fa-instagram"></i> Instagram
+                        </a>
+                        <a href="https://www.tiktok.com/@yosoyrichy_mj" target="_blank" class="contact-social-link">
+                            <i class="fa-brands fa-tiktok"></i> TikTok
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -215,6 +365,8 @@
     </div>
 </div>
 
+<!-- Script de TikTok -->
+<script async src="https://www.tiktok.com/embed.js"></script>
 <script src="portafolio.js"></script>
 </body>
 </html>
